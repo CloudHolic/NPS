@@ -260,7 +260,7 @@ namespace NPS
 
                 if (isGradation)
                 {
-                    var colorTween = (int)(155 * (averageNPS - Math.Floor(averageNPS / 8) * 8) / 8);
+                    var colorTween = (int)((155 * (averageNPS - (Math.Floor(averageNPS / 8) * 8))) / 8);
                     if (colorTween > 155)
                         colorTween = 155;
 

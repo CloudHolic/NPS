@@ -42,7 +42,6 @@ namespace NPS
                 config.Save(ConfigurationSaveMode.Modified);
                 ConfigurationManager.RefreshSection(config.AppSettings.SectionInformation.Name);
             }
-
             catch (Exception)
             {
                 // ignored
